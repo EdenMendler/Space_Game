@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonSize">60dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="heart_dimens">40dp</dimen>
+    <dimen name="hearts_layout_width">140dp</dimen>
+    <dimen name="heart_margins">10dp</dimen>
+    <dimen name="size_spaceship">80dp</dimen>
+    <dimen name="arrow_size">25dp</dimen>
+    <dimen name="size_asteroid">50dp</dimen>
+    <dimen name="size_matrix">500dp</dimen>
+    <dimen name="top_matrix">40dp</dimen>
+    <dimen name="size_gameover">40sp</dimen>
+</resources>
