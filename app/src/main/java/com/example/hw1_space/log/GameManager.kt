@@ -6,6 +6,8 @@ import androidx.appcompat.widget.AppCompatImageView
 class GameManager (private val lifeCount: Int = 3){
     var currentLives: Int = lifeCount
         private set
+    var score: Int = 0
+        private set
 
     fun isGameOver(): Boolean {
         return currentLives <= 0
@@ -16,5 +18,8 @@ class GameManager (private val lifeCount: Int = 3){
             currentLives--
             main_IMG_hearts[currentLives].visibility = View.INVISIBLE
         }
+    }
+    fun addScore(value: Int) {
+        score += value
     }
 }

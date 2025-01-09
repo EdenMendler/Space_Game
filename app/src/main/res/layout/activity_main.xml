@@ -9,59 +9,61 @@
     android:layoutDirection="ltr"
     android:background="@drawable/background"
     >
-
+    <!-- Asteroid -->
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="@dimen/size_matrix"
         android:orientation="horizontal"
         android:layout_centerInParent="true"
-        android:layout_centerHorizontal="true">
+        android:paddingHorizontal="20dp"
+        android:weightSum="5">
 
         <!-- Column 1 -->
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/col_width"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1"
+            android:gravity="center_horizontal">
             >
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_1_1"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_2_1"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_3_1"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_4_1"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_5_1"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible"/>
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_6_1"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
@@ -69,49 +71,49 @@
 
         <!-- Column 2 -->
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/col_width"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1"
-            android:layout_marginHorizontal="100dp">
+            android:gravity="center_horizontal">
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_1_2"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_2_2"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_3_2"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_4_2"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_5_2"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible"/>
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_6_2"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible"/>
@@ -119,49 +121,152 @@
 
         <!-- Column 3 -->
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/col_width"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1"
+            android:gravity="center_horizontal">
             >
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_1_3"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_2_3"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_3_3"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_4_3"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_5_3"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/asteroid_6_3"
-                android:layout_width="@dimen/size_asteroid"
-                android:layout_height="@dimen/size_asteroid"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- Column 4 -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/col_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_1_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_2_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_3_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_4_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_5_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_6_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- Column 5 -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/col_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_1_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_2_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_3_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_4_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_5_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/asteroid"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/asteroid_6_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
                 android:layout_marginTop="@dimen/top_matrix"
                 android:src="@drawable/asteroid"
                 android:visibility="invisible"/>
@@ -169,20 +274,286 @@
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
+    <!-- Coin -->
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="110dp"
-        >
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_matrix"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:paddingHorizontal="20dp"
+        android:weightSum="5">
 
         <!-- Column 1 -->
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/col_width"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_1_1"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_2_1"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_3_1"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_4_1"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_5_1"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_6_1"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
+        <!-- Column 2 -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/col_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_1_2"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_2_2"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_3_2"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_4_2"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_5_2"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_6_2"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- Column 3 -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/col_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_1_3"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_2_3"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_3_3"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_4_3"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_5_3"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_6_3"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- Column 4 -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/col_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_1_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_2_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_3_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_4_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_5_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_6_4"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- Column 5 -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/col_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_1_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_2_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_3_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_4_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_5_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/coin_6_5"
+                android:layout_width="@dimen/size_asteroid_coin"
+                android:layout_height="@dimen/size_asteroid_coin"
+                android:layout_marginTop="@dimen/top_matrix"
+                android:src="@drawable/coin"
+                android:visibility="invisible"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!-- Spaceship -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:paddingHorizontal="20dp"
+        android:weightSum="5">
+
+        <!-- Column 1 -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/col_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/spaceship_1"
                 android:layout_width="@dimen/size_spaceship"
@@ -193,28 +564,24 @@
 
         <!-- Column 2 -->
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/col_width"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="100dp"
-            android:orientation="vertical"
-            android:layout_weight="1">
-
+            android:layout_weight="1"
+            android:gravity="center">
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/spaceship_2"
                 android:layout_width="@dimen/size_spaceship"
                 android:layout_height="@dimen/size_spaceship"
                 android:src="@drawable/spaceship"
                 android:visibility="visible" />
-
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <!-- Column 3 -->
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/col_width"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="1">
-
+            android:layout_weight="1"
+            android:gravity="center">
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/spaceship_3"
                 android:layout_width="@dimen/size_spaceship"
@@ -223,7 +590,48 @@
                 android:visibility="visible" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
+        <!-- Column 4 -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/col_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/spaceship_4"
+                android:layout_width="@dimen/size_spaceship"
+                android:layout_height="@dimen/size_spaceship"
+                android:src="@drawable/spaceship"
+                android:visibility="visible" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- Column 5 -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/col_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/spaceship_5"
+                android:layout_width="@dimen/size_spaceship"
+                android:layout_height="@dimen/size_spaceship"
+                android:src="@drawable/spaceship"
+                android:visibility="visible" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
     </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:textSize="@dimen/default_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:text="000" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/main_BTN_buttonLeft"

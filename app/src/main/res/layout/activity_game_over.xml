@@ -7,13 +7,31 @@
     android:gravity="center"
     android:background="@drawable/background">
 
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/gameover_LBL_status"
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/size_gameover"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        tools:text="GAME OVER!!! 😭"
-        />
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/gameover_LBL_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_gameover"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/default_margin"
+            tools:text="GAME OVER!!! 😭\n" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/score_LBL_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_gameover"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            tools:text="Your score : 000" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 </RelativeLayout>

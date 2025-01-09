@@ -7,8 +7,14 @@
     <dimen name="heart_margins">10dp</dimen>
     <dimen name="size_spaceship">80dp</dimen>
     <dimen name="arrow_size">25dp</dimen>
-    <dimen name="size_asteroid">50dp</dimen>
+    <dimen name="size_asteroid_coin">50dp</dimen>
     <dimen name="size_matrix">500dp</dimen>
     <dimen name="top_matrix">40dp</dimen>
     <dimen name="size_gameover">40sp</dimen>
+    <dimen name="default_text_size">32sp</dimen>
+    <dimen name="size_menu_control">20dp</dimen>
+    <dimen name="size_menu">10dp</dimen>
+    <dimen name="col_width">0dp</dimen>
+    <dimen name="size_text">24sp</dimen>
+    <dimen name="size_text_item">18sp</dimen>
 </resources>
